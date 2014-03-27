@@ -18,5 +18,10 @@
 # Boston, MA 02110-1301, USA.
 
 install(FILES
+    tnc_ax25_deframer.xml
+    tnc_ax25_framer.xml
+    tnc_hdlc_framer.xml
+    tnc_hdlc_deframer.xml
+    tnc_serial_io.xml
     tnc_square_ff.xml DESTINATION share/gnuradio/grc/blocks
 )

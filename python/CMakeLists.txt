@@ -31,6 +31,11 @@ endif()
 GR_PYTHON_INSTALL(
     FILES
     __init__.py
+    hdlc_framer.py
+    ax25_framer.py
+    ax25_deframer.py
+    ax25.py
+    serial_io.py
     DESTINATION ${GR_PYTHON_DIR}/tnc
 )
 

@@ -22,5 +22,6 @@
 ########################################################################
 install(FILES
     api.h
+    hdlc_deframer.h
     square_ff.h DESTINATION include/tnc
 )

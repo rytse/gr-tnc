@@ -27,6 +27,7 @@ link_directories(${Boost_LIBRARY_DIRS})
 
 list(APPEND tnc_sources
     square_ff_impl.cc
+    hdlc_deframer_impl.cc
 )
 
 add_library(gnuradio-tnc SHARED ${tnc_sources})

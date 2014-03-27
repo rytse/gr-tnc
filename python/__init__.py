@@ -23,6 +23,8 @@ This is the GNU Radio TNC module. Place your Python package
 description here (python/__init__.py).
 '''
 
+
+
 # ----------------------------------------------------------------
 # Temporary workaround for ticket:181 (swig+python problem)
 import sys
@@ -44,8 +46,13 @@ if _RTLD_GLOBAL != 0:
 # import swig generated symbols into the tnc namespace
 from tnc_swig import *
 
+
+
 # import any pure python here
 #
+from hdlc_framer import hdlc_framer
+from ax25_framer import ax25_framer
+from ax25_deframer import ax25_deframer
 
 # ----------------------------------------------------------------
 # Tail of workaround
