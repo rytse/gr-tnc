@@ -21,7 +21,7 @@
 
 import numpy
 from gnuradio import gr,blocks
-from satisfi import ax25
+import ax25
 from math import pi
 import pmt
 from gnuradio import digital

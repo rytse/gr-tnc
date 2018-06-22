@@ -25,7 +25,6 @@ except: from gruel import pmt
 from math import pi
 import serial
 import thread
-import satisfi
 
 NONE = 0
 EVEN = 1 
